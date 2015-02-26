@@ -1,6 +1,6 @@
 import Foundation
 
-typealias studentArray = [Student]
+typealias studentArray = [Students]
 
 class Students {
 
