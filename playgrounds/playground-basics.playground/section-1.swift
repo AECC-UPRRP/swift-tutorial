@@ -52,6 +52,29 @@ import UIKit
 //var img1 = UIImage(named: "cat.jpeg")
 //let img2 = UIImage(named: "kitty.jpg")
 
+/*
+    //##### Classes #####
+
+    class User {
+        var name : String!
+        var email : String!
+        var address : String!
+        var age : Int!
+        
+        init() {
+            
+        }
+        
+    }
+*/
+
+/*
+    //##### Typealias #####
+
+    typealias userArray = [User]
+
+*/
+
 
 
 
