@@ -3,13 +3,13 @@
 
 **This tutorial is not an Xcode project.** These are guide files to learn the basics of Swift and then start a small application.
 
-It includes a [Playground](#playground) and two [ViewControllers](#viewcontrollers)
+It includes a [Playground](#playground) file and two [ViewControllers](#viewcontrollers)
 
 ### Playground ###
 
 By follow this file you will see some basics examples of the Swift syntax like: 
 
-	* Explicits Variable and Constat Values
+	* Explicits Variable and Constant Values
 	* Closures
 	* Extensions
 	* Classes
