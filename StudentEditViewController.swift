@@ -115,7 +115,8 @@ class StudentEditViewController: UITableViewController {
     func saveAction(sender: AnyObject?) {
         self.view.endEditing(true)
         
-        let nameStr = self.nameTextField.text ?? String()
+        let nameStr  = self.nameTextField.text ?? String()
+        let placeStr = self.placeTextField.text ?? String()
         
         if nameStr.isEmpty {
             let alertController = UIAlertController(title: "Barbero", message: "missing data", preferredStyle: .Alert)
@@ -124,8 +125,6 @@ class StudentEditViewController: UITableViewController {
             self.navigationController!.presentViewController(alertController, animated: true, completion: nil)
             return
         }
-        
-        let placeStr = self.placeTextField.text ?? String()
         
         self.student.name = nameStr
         self.student.college = placeStr
